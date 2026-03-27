@@ -20,3 +20,4 @@
 .env.local.local
 .env.local.development
 .env.local.test
+*__pycache__*

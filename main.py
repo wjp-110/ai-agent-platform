@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from slowapi.middleware import SlowAPIMiddleware
 
 from app.api.chat_api import router
-from app.core import limiter
+from app.core.limiter import limiter
 
 app = FastAPI()
 app.include_router(router)

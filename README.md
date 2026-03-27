@@ -50,42 +50,42 @@
     ai-agent-platform/
     
     ├── app
-    │
-    ├── api
-    │   └── chat_api.py
-    │
-    ├── agent
-    │   ├── agent_graph.py
-    │   └── state.py
-    │
-    ├── llm
-    │   └── deepseek_llm.py
-    │
-    ├── skills
-    │   ├── loader.py
-    │   ├── base.py
-    │   └── user_skill.py
-    │
-    ├── services
-    │   └── user_service.py
-    │
-    ├── db
-    │   ├── mysql.py
-    │   └── models.py
-    │
-    ├── memory
-    │   └── redis_memory.py
-    │
-    ├── core
-    │   ├── config.py
-    │   └── logger.py
-    │
-    ├── tests
-    │   └── test_agent.py
-    │
-    ├── docker
-    │   ├── Dockerfile
-    │   └── docker-compose.yml
+        │
+        ├── api
+        │   └── chat_api.py
+        │
+        ├── agent
+        │   ├── agent_graph.py
+        │   └── state.py
+        │
+        ├── llm
+        │   └── deepseek_llm.py
+        │
+        ├── skills
+        │   ├── loader.py
+        │   ├── base.py
+        │   └── user_skill.py
+        │
+        ├── services
+        │   └── user_service.py
+        │
+        ├── db
+        │   ├── mysql.py
+        │   └── models.py
+        │
+        ├── memory
+        │   └── redis_memory.py
+        │
+        ├── core
+        │   ├── config.py
+        │   └── logger.py
+        │
+        ├── tests
+        │   └── test_agent.py
+        │
+        ├── docker
+        │   ├── Dockerfile
+        │   └── docker-compose.yml
     │
     ├── main.py
     ├── requirements.txt
